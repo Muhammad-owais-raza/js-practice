@@ -198,7 +198,7 @@ let price = "150.99";
 // parseFloat()
 let price = "150.99";
 
-// console.log(parseFloat(price));
+// console.log(parseFloat(price)); 
 
 // Output
 

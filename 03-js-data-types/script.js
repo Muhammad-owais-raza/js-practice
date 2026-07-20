@@ -118,7 +118,7 @@ let b = 5;
 
 // 👉 + operator string dekh kar 5 ko bhi string bana deta hai.
 
-"10" + "5" = "105"
+// "10" + "5" = "105"
 
 
 // Example 2
@@ -134,7 +134,7 @@ let b = 5;
 
 // Yahan JavaScript "10" ko number bana deta hai.
 
-10 - 5 = 5
+// 10 - 5 = 5
 
 
 

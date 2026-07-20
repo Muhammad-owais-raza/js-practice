@@ -12,7 +12,7 @@
 
 
 
-// Examples to  Primitive data types :
+// Examples to  Primitive data types : 
 
 
 let num = 5847348934; // Number

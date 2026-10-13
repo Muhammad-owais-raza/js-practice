@@ -22,16 +22,16 @@
 
 // Example :
 
-let test2 = true && false && true;
+let testB = true && false && true;
 
-console.log(test2);
+console.log(testB);
 
-let x = 5;
-let y = 16;
+let X = 5;
+let Y = 16;
 
-console.log(x == 5 || y == 5);
-console.log(5 < 10 && y > 1);
-console.log(!(x === y));
+// console.log(x == 5 || y == 5);
+// console.log(5 < 10 && y > 1);
+// console.log(!(x === y));
 
 
 
@@ -56,9 +56,9 @@ if(email === "owais@gmail.com" && password === "12345"){
 
 // Example :
 
-let test1 = true || true;
+let testA = true || true;
 
-console.log(test1);
+// console.log(testA);
 
 
 let role = "Manager";
@@ -86,10 +86,10 @@ if(role === "Admin" || role === "Manager"){
 
 let age = 55;
 
-console.log(!(age > 18));
-console.log(!0);
-console.log(!5);
-console.log(!"false");
+// console.log(!(age > 18));
+// console.log(!0);
+// console.log(!5);
+// console.log(!"false");
 
 
 let isLoggedIn = false;
@@ -98,3 +98,52 @@ if(!isLoggedIn){
     // console.log("Please Login");
 }
 
+
+
+let age1 = 55;
+
+// console.log(!(age > 18));
+// console.log(!0);
+// console.log(!5);
+// console.log(!"false");
+
+
+let x = 5;
+let y = 16;
+
+// console.log(x == 5 || y == 5);
+// console.log(5 < 10 && y > 1);
+// console.log(!(x === y));
+
+
+
+// aakhir truthy value return kare ga
+// console.log(true && "shehzad");
+// console.log(true && "");
+// console.log("shehzad" && true && "smit");
+// console.log(null && "shehzad" && 56);
+// console.log(null && "" && 0);
+// console.log(54 && 55 && 56);
+// console.log(true && "shehzad" && 56);
+// console.log(true && 0 && 56);
+// console.log(true && 1 && false);
+// console.log("hh" && null);
+// console.log("hh" && "kk");
+
+// Phale truthy value return kare ga
+// console.log("shehzad" || true);
+// console.log("" || null);
+// console.log("" || true);
+// console.log("shehzad" || 0 || null || true);
+// console.log(null || " " || 56);
+// console.log(true || "shehzad" || 56);
+// console.log(false || 0 || 56);
+// console.log("hh" || null);
+// console.log("hh" || "kk");
+
+
+// Trick
+false || false || false;
+true || true || true;
+false && false && false;
+true && true && true;
